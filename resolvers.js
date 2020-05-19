@@ -111,7 +111,7 @@ module.exports = {
       if (!isValidPassword) {
         throw new Error("Passwords do not match");
       }
-      const token = jwt.sign({ userId: user._id }, "thisisasecret", {
+      const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, {
         expiresIn: "2d",
       });
       return { token };

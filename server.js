@@ -23,7 +23,7 @@ const server = new ApolloServer({
     let currentUser;
     if (token) {
       try {
-        currentUser = await jwt.verify(token, "thisisasecret");
+        currentUser = await jwt.verify(token, process.env.JWT_SECRET);
       } catch (error) {
         console.error(error);
       }
