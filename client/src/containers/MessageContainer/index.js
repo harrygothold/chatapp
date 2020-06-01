@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from "react";
 import Context from "../../context";
-import { useQuery, useSubscription } from "@apollo/react-hooks";
 import { useChatMessages } from "../../hooks";
 import MessageItem from "../../components/MessageItem";
 import { Comment } from "semantic-ui-react";

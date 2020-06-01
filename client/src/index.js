@@ -2,6 +2,7 @@ import React, { useContext, useReducer } from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { createGlobalStyle } from "styled-components";
+import "emoji-mart/css/emoji-mart.css";
 
 const GlobalStyles = createGlobalStyle`
     * { 
