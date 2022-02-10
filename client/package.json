@@ -20,7 +20,7 @@
     "graphql": "^15.0.0",
     "graphql-request": "^1.8.2",
     "moment": "^2.25.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-apollo": "^3.1.5",
     "react-dom": "^16.13.1",
